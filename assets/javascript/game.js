@@ -6,7 +6,7 @@ var lettersGuessed = [];
 var randomLetter = letters[Math.floor(Math.random() * letters.length)];
     console.log(randomLetter)
 
-   // if (lettersGuessed.indexOf(userPick) < 0 && letters.indexOf(userPick) >=0)
+   
 
 
     document.onkeyup = function(event) {
